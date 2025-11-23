@@ -1,0 +1,12 @@
+Trigger 1:
+
+syncNewSheetEntries
+Event = On Change
+Source = Spreadsheet
+
+
+Trigger 2:
+
+syncNewContacts
+Event = Time-driven
+Every 5 minutes
