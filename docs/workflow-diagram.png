@@ -1,0 +1,11 @@
+[Google Sheets]
+     |
+     | 1. On Change
+     v
+[Apps Script] --creates--> [Google Contacts (EDXSO Sync)]
+
+[Google Contacts (EDXSO Incoming)]
+     |
+     | 2. Time Trigger (5 min)
+     v
+[Apps Script] --writes--> [Google Sheets]
